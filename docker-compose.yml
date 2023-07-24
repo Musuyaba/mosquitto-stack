@@ -7,20 +7,20 @@ services:
       context: mosquitto
       dockerfile: Dockerfile
       args:
-        - PASSWORD_PATH=/mosquitto/config/password.txt
+        - PASSWORD_PATH=/config/password.txt
     env_file:
-      - "./mosquitto/.env"
+      - "./.env"
     volumes:
       - type: bind
-        source: ./cert/mosquitto/generated
+        source: ./cert/generated
         target: /mosquitto/certs/
         read_only: false
       - type: bind
-        source: ./mosquitto/config/mosquitto.conf
+        source: ./config/mosquitto.conf
         target: /mosquitto/config/mosquitto.conf
         read_only: false
       - type: bind
-        source: ./mosquitto/log
+        source: ./log
         target: /mosquitto/log/
         read_only: false
       - type: volume
@@ -31,8 +31,6 @@ services:
       - "9001:9001"
     networks:
       - iot_networks
-    profiles:
-      - mosquitto-stack
     depends_on:
       ssl:
         condition: service_completed_successfully
@@ -50,15 +48,13 @@ services:
   #     - mosquitto-sub
   #   networks:
   #     - iot_networks
-  #   profiles:
-  #     - mosquitto-stack
 
   mosquitto-sub:
     container_name: mosquitto-sub
     image: eclipse-mosquitto:2.0
     volumes:
       - type: bind
-        source: ./cert/mosquitto/generated
+        source: ./cert/generated
         target: /mosquitto/certs/
         read_only: false
     command: sh -c "mosquitto_sub -h mosquitto-broker -t topics/iot -u admin -P admin --cert /mosquitto/certs/ca.crt --key /mosquitto/certs/client.key --tls-version tlsv1.2"
@@ -66,23 +62,19 @@ services:
       - mosquitto-broker
     networks:
       - iot_networks
-    profiles:
-      - mosquitto-stack
 
   ssl:
     container_name: ssl
     build:
-      context: cert/mosquitto
+      context: cert
       dockerfile: Dockerfile
     networks:
       - iot_networks
     volumes:
       - type: bind
-        source: ./cert/mosquitto/generated
+        source: ./cert/generated
         target: /cert/mosquitto/generated
         read_only: false
-    profiles:
-      - mosquitto-stack
 
 networks:
   iot_networks:
