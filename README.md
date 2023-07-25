@@ -32,16 +32,20 @@ docker compose --profile ssl up --build
 # ssl  | server.crt: OK
 # ssl exited with code 0
 ```
+- 
 
 ## Roadmap
 ### In Progress
+- [ ] CPP Client
+- [ ] Node.js Client
+- [ ] Python Client
+
+### Done ✓
+- [x] Create Readme.md
 - [x] Docker for OpenSSL
 - [x] Docker for Broker
 - [x] Docker for Subscriber
 - [x] Docker for Publisher
-
-### Done ✓
-- [x] Create Readme.md
 
 <!-- LICENSE -->
 ## License
