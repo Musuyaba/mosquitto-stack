@@ -3,18 +3,15 @@ version: '3'
 services:
   mosquitto-broker:
     container_name: mosquitto-broker
+    hostname: mosquitto-broker
     build:
-      context: mosquitto
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: mosquitto-broker.Dockerfile
       args:
-        - PASSWORD_PATH=/config/password.txt
+        - PASSWORD_PATH=/mosquitto/config/password.txt
     env_file:
       - "./.env"
     volumes:
-      - type: bind
-        source: ./cert/generated
-        target: /mosquitto/certs/
-        read_only: false
       - type: bind
         source: ./config/mosquitto.conf
         target: /mosquitto/config/mosquitto.conf
@@ -31,50 +28,60 @@ services:
       - "9001:9001"
     networks:
       - iot_networks
-    depends_on:
-      ssl:
-        condition: service_completed_successfully
+    profiles:
+      - mosquitto
 
-  # mosquitto-pub:
-  #   container_name: mosquitto-pub
-  #   image: eclipse-mosquitto:2.0
-  #   volumes:
-  #     - type: bind
-  #       source: ./cert/mosquitto
-  #       target: /mosquitto/certs/
-  #       read_only: false
-  #   depends_on:
-  #     - mosquitto-broker
-  #     - mosquitto-sub
-  #   networks:
-  #     - iot_networks
-
-  mosquitto-sub:
-    container_name: mosquitto-sub
+  mosquitto-pub:
+    container_name: mosquitto-pub
+    hostname: mosquitto-pub
     image: eclipse-mosquitto:2.0
     volumes:
       - type: bind
         source: ./cert/generated
         target: /mosquitto/certs/
         read_only: false
-    command: sh -c "mosquitto_sub -h mosquitto-broker -t topics/iot -u admin -P admin --cert /mosquitto/certs/ca.crt --key /mosquitto/certs/client.key --tls-version tlsv1.2"
+    depends_on:
+      - mosquitto-broker
+      - mosquitto-sub
+    networks:
+      - iot_networks
+    profiles:
+      - mosquitto
+
+  mosquitto-sub:
+    container_name: mosquitto-sub
+    hostname: mosquitto-sub
+    image: eclipse-mosquitto:2.0
+    volumes:
+      - type: bind
+        source: ./cert/generated
+        target: /mosquitto/certs/
+        read_only: false
+    command: sh -c "mosquitto_sub -h mosquitto-broker -t topics/# -u admin -P admin --cafile /mosquitto/certs/ca.crt --tls-version tlsv1.2"
     depends_on:
       - mosquitto-broker
     networks:
       - iot_networks
+    profiles:
+      - mosquitto
+      - mosquitto-broker
 
   ssl:
     container_name: ssl
     build:
       context: cert
-      dockerfile: Dockerfile
+      dockerfile: cert.Dockerfile
     networks:
       - iot_networks
     volumes:
       - type: bind
         source: ./cert/generated
-        target: /cert/mosquitto/generated
+        target: /cert/generated
         read_only: false
+        bind:
+          create_host_path: true
+    profiles:
+      - ssl
 
 networks:
   iot_networks:

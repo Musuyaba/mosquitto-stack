@@ -10,5 +10,6 @@ WORKDIR /
 # Copy Password to create authentication
 COPY "config/password.txt.example" "/mosquitto/config/password.txt"
 
+COPY "cert/generated/" "/mosquitto/certs/"
 # Encryption default "admin" and "user" 
 RUN mosquitto_passwd -U ${PASSWORD_PATH}

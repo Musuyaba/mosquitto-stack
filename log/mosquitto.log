@@ -1,490 +1,631 @@
-1689840502: New connection from 172.23.0.4:53510 on port 1883.
-1689840502: New client connected from 172.23.0.4:53510 as auto-5C814169-CDB7-91E2-5081-6B9446A607E6 (p2, c1, k60, u'user').
-1689840502: Client auto-5C814169-CDB7-91E2-5081-6B9446A607E6 disconnected.
-1689840519: New connection from 172.23.0.4:35474 on port 8883.
-1689840519: New client connected from 172.23.0.4:35474 as auto-23561D1D-850E-30CC-A0F8-FBA5CD5B7A32 (p2, c1, k60, u'admin').
-1689840519: Client auto-23561D1D-850E-30CC-A0F8-FBA5CD5B7A32 disconnected.
-1689842148: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689842651: Client auto-9D9E4F92-65CE-2B43-E58E-4C4A5BE23918 disconnected.
-1689842652: mosquitto version 2.0.15 terminating
-1689842652: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689842673: mosquitto version 2.0.15 starting
-1689842673: Config loaded from /mosquitto/config/mosquitto.conf.
-1689842673: Opening ipv4 listen socket on port 1883.
-1689842673: Opening ipv6 listen socket on port 1883.
-1689842673: Opening ipv4 listen socket on port 8883.
-1689842673: Opening ipv6 listen socket on port 8883.
-1689842673: mosquitto version 2.0.15 running
-1689842676: New connection from 172.23.0.4:39612 on port 8883.
-1689842676: New client connected from 172.23.0.4:39612 as auto-508EB4E9-FD69-1960-F54A-E45D4B48702C (p2, c1, k60, u'admin').
-1689842682: Client auto-508EB4E9-FD69-1960-F54A-E45D4B48702C disconnected.
-1689842682: mosquitto version 2.0.15 terminating
-1689842682: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689842787: mosquitto version 2.0.15 starting
-1689842787: Config loaded from /mosquitto/config/mosquitto.conf.
-1689842787: Opening ipv4 listen socket on port 1883.
-1689842787: Opening ipv6 listen socket on port 1883.
-1689842787: Opening ipv4 listen socket on port 8883.
-1689842787: Opening ipv6 listen socket on port 8883.
-1689842787: mosquitto version 2.0.15 running
-1689842788: New connection from 172.23.0.4:34330 on port 8883.
-1689842788: New client connected from 172.23.0.4:34330 as auto-C6B53D9E-1F07-E9E5-C644-C8962AEE5D3F (p2, c1, k60, u'admin').
-1689842802: New connection from 172.23.0.5:53600 on port 8883.
-1689842802: New client connected from 172.23.0.5:53600 as auto-8DC13591-8B96-471A-E219-079E7C90F64F (p2, c1, k60, u'admin').
-1689842802: Client auto-8DC13591-8B96-471A-E219-079E7C90F64F disconnected.
-1689842811: New connection from 172.23.0.5:54474 on port 1883.
-1689842811: New client connected from 172.23.0.5:54474 as auto-AA47509F-50EB-ED18-5C0E-8599E9A61AF3 (p2, c1, k60, u'user').
-1689842811: Client auto-AA47509F-50EB-ED18-5C0E-8599E9A61AF3 disconnected.
-1689842835: Client auto-C6B53D9E-1F07-E9E5-C644-C8962AEE5D3F disconnected.
-1689842836: mosquitto version 2.0.15 terminating
-1689842836: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689845308: mosquitto version 2.0.15 starting
-1689845308: Config loaded from /mosquitto/config/mosquitto.conf.
-1689845308: Opening ipv4 listen socket on port 1883.
-1689845308: Opening ipv6 listen socket on port 1883.
-1689845308: Opening ipv4 listen socket on port 8883.
-1689845308: Opening ipv6 listen socket on port 8883.
-1689845308: Error: Unable to load CA certificates. Check cafile "/mosquitto/certs/ca.crt".
-1689845308: Error: Unable to load server certificate "/mosquitto/certs/server.crt". Check certfile.
-1689845308: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
-1689845308: OpenSSL Error[1]: error:20FFF080:BIO routines:CRYPTO_internal:no such file
-1689845308: OpenSSL Error[2]: error:0BFFF002:x509 certificate routines:CRYPTO_internal:system lib
-1689845308: OpenSSL Error[3]: error:02FFF002:system library:func(4095):No such file or directory
-1689845308: OpenSSL Error[4]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
-1689845308: OpenSSL Error[5]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
-1689845443: mosquitto version 2.0.15 starting
-1689845443: Config loaded from /mosquitto/config/mosquitto.conf.
-1689845443: Opening ipv4 listen socket on port 1883.
-1689845443: Opening ipv6 listen socket on port 1883.
-1689845443: Opening ipv4 listen socket on port 8883.
-1689845443: Opening ipv6 listen socket on port 8883.
-1689845443: mosquitto version 2.0.15 running
-1689845446: New connection from 172.23.0.2:36626 on port 8883.
-1689845446: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689845446: Client <unknown> disconnected: Protocol error.
-1689845566: mosquitto version 2.0.15 terminating
-1689845566: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689845596: mosquitto version 2.0.15 starting
-1689845596: Config loaded from /mosquitto/config/mosquitto.conf.
-1689845596: Opening ipv4 listen socket on port 1883.
-1689845596: Opening ipv6 listen socket on port 1883.
-1689845596: Opening ipv4 listen socket on port 8883.
-1689845596: Opening ipv6 listen socket on port 8883.
-1689845596: mosquitto version 2.0.15 running
-1689845597: New connection from 172.23.0.2:46730 on port 8883.
-1689845597: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689845597: Client <unknown> disconnected: Protocol error.
-1689913947: mosquitto version 2.0.15 starting
-1689913947: Config loaded from /mosquitto/config/mosquitto.conf.
-1689913947: Opening ipv4 listen socket on port 1883.
-1689913947: Opening ipv6 listen socket on port 1883.
-1689913947: Opening ipv4 listen socket on port 8883.
-1689913947: Opening ipv6 listen socket on port 8883.
-1689913947: mosquitto version 2.0.15 running
-1689913950: New connection from 172.23.0.2:35634 on port 8883.
-1689913950: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689913950: Client <unknown> disconnected: Protocol error.
-1689914067: New connection from 172.23.0.4:58702 on port 8883.
-1689914067: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689914067: Client <unknown> disconnected: Protocol error.
-1689914126: New connection from 172.23.0.4:33850 on port 8883.
-1689914126: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689914126: Client <unknown> disconnected: Protocol error.
-1689914323: mosquitto version 2.0.15 terminating
-1689914323: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689914347: mosquitto version 2.0.15 starting
-1689914347: Config loaded from /mosquitto/config/mosquitto.conf.
-1689914347: Opening ipv4 listen socket on port 1883.
-1689914347: Opening ipv6 listen socket on port 1883.
-1689914347: Opening ipv4 listen socket on port 8883.
-1689914347: Opening ipv6 listen socket on port 8883.
-1689914347: mosquitto version 2.0.15 running
-1689914366: New connection from 172.23.0.4:43268 on port 8883.
-1689914366: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689914366: Client <unknown> disconnected: Protocol error.
-1689914387: New connection from 172.23.0.4:58202 on port 8883.
-1689914387: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689914387: Client <unknown> disconnected: Protocol error.
-1689914482: mosquitto version 2.0.15 terminating
-1689914482: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689914626: mosquitto version 2.0.15 starting
-1689914626: Config loaded from /mosquitto/config/mosquitto.conf.
-1689914626: Opening ipv4 listen socket on port 1883.
-1689914626: Opening ipv6 listen socket on port 1883.
-1689914626: Opening ipv4 listen socket on port 8883.
-1689914626: Opening ipv6 listen socket on port 8883.
-1689914626: mosquitto version 2.0.15 running
-1689914629: New connection from 172.23.0.2:54606 on port 8883.
-1689914629: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689914629: Client <unknown> disconnected: Protocol error.
-1689917699: mosquitto version 2.0.15 terminating
-1689917699: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689917721: mosquitto version 2.0.15 starting
-1689917721: Config loaded from /mosquitto/config/mosquitto.conf.
-1689917721: Opening ipv4 listen socket on port 1883.
-1689917721: Opening ipv6 listen socket on port 1883.
-1689917721: Opening ipv4 listen socket on port 8883.
-1689917721: Opening ipv6 listen socket on port 8883.
-1689917721: mosquitto version 2.0.15 running
-1689917743: mosquitto version 2.0.15 terminating
-1689917743: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689917781: mosquitto version 2.0.15 starting
-1689917781: Config loaded from /mosquitto/config/mosquitto.conf.
-1689917781: Opening ipv4 listen socket on port 1883.
-1689917781: Opening ipv6 listen socket on port 1883.
-1689917781: Opening ipv4 listen socket on port 8883.
-1689917781: Opening ipv6 listen socket on port 8883.
-1689917781: mosquitto version 2.0.15 running
-1689917881: New connection from 172.23.0.2:49556 on port 8883.
-1689917881: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689917881: Client <unknown> disconnected: Protocol error.
-1689917888: New connection from 172.23.0.2:49574 on port 8883.
-1689917888: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689917888: Client <unknown> disconnected: Protocol error.
-1689917982: mosquitto version 2.0.15 terminating
-1689917982: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689918045: mosquitto version 2.0.15 starting
-1689918045: Config loaded from /mosquitto/config/mosquitto.conf.
-1689918045: Opening ipv4 listen socket on port 1883.
-1689918045: Opening ipv6 listen socket on port 1883.
-1689918045: Opening ipv4 listen socket on port 8883.
-1689918045: Opening ipv6 listen socket on port 8883.
-1689918045: mosquitto version 2.0.15 running
-1689918046: New connection from 172.23.0.2:44314 on port 8883.
-1689918046: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689918046: Client <unknown> disconnected: Protocol error.
-1689918213: mosquitto version 2.0.15 terminating
-1689918213: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689918242: mosquitto version 2.0.15 starting
-1689918242: Config loaded from /mosquitto/config/mosquitto.conf.
-1689918242: Opening ipv4 listen socket on port 1883.
-1689918242: Opening ipv6 listen socket on port 1883.
-1689918242: Opening ipv4 listen socket on port 8883.
-1689918242: Opening ipv6 listen socket on port 8883.
-1689918242: Error: Unable to load CA certificates. Check cafile "/mosquitto/certs/ca.crt".
-1689918242: Error: Unable to load server certificate "/mosquitto/certs/server.crt". Check certfile.
-1689918242: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
-1689918242: OpenSSL Error[1]: error:20FFF080:BIO routines:CRYPTO_internal:no such file
-1689918242: OpenSSL Error[2]: error:0BFFF002:x509 certificate routines:CRYPTO_internal:system lib
-1689918242: OpenSSL Error[3]: error:02FFF002:system library:func(4095):No such file or directory
-1689918242: OpenSSL Error[4]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
-1689918242: OpenSSL Error[5]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
-1689918343: mosquitto version 2.0.15 starting
-1689918343: Config loaded from /mosquitto/config/mosquitto.conf.
-1689918343: Opening ipv4 listen socket on port 1883.
-1689918343: Opening ipv6 listen socket on port 1883.
-1689918343: Opening ipv4 listen socket on port 8883.
-1689918343: Opening ipv6 listen socket on port 8883.
-1689918343: Error: Unable to load CA certificates. Check cafile "/mosquitto/certs/ca.crt".
-1689918343: Error: Unable to load server certificate "/mosquitto/certs/server.crt". Check certfile.
-1689918343: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
-1689918343: OpenSSL Error[1]: error:20FFF080:BIO routines:CRYPTO_internal:no such file
-1689918343: OpenSSL Error[2]: error:0BFFF002:x509 certificate routines:CRYPTO_internal:system lib
-1689918343: OpenSSL Error[3]: error:02FFF002:system library:func(4095):No such file or directory
-1689918343: OpenSSL Error[4]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
-1689918343: OpenSSL Error[5]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
-1689918391: mosquitto version 2.0.15 starting
-1689918391: Config loaded from /mosquitto/config/mosquitto.conf.
-1689918391: Opening ipv4 listen socket on port 1883.
-1689918391: Opening ipv6 listen socket on port 1883.
-1689918391: Opening ipv4 listen socket on port 8883.
-1689918391: Opening ipv6 listen socket on port 8883.
-1689918391: Error: Unable to load CA certificates. Check cafile "/mosquitto/certs/ca.crt".
-1689918391: Error: Unable to load server certificate "/mosquitto/certs/server.crt". Check certfile.
-1689918391: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
-1689918391: OpenSSL Error[1]: error:20FFF080:BIO routines:CRYPTO_internal:no such file
-1689918391: OpenSSL Error[2]: error:0BFFF002:x509 certificate routines:CRYPTO_internal:system lib
-1689918391: OpenSSL Error[3]: error:02FFF002:system library:func(4095):No such file or directory
-1689918391: OpenSSL Error[4]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
-1689918391: OpenSSL Error[5]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
-1689920068: mosquitto version 2.0.15 starting
-1689920068: Config loaded from /mosquitto/config/mosquitto.conf.
-1689920068: Opening ipv4 listen socket on port 1883.
-1689920068: Opening ipv6 listen socket on port 1883.
-1689920068: Opening ipv4 listen socket on port 8883.
-1689920068: Opening ipv6 listen socket on port 8883.
-1689920068: mosquitto version 2.0.15 running
-1689920070: New connection from 172.23.0.4:48842 on port 8883.
-1689920070: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689920070: Client <unknown> disconnected: Protocol error.
-1689920197: mosquitto version 2.0.15 terminating
-1689920197: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689920399: mosquitto version 2.0.15 starting
-1689920399: Config loaded from /mosquitto/config/mosquitto.conf.
-1689920399: Opening ipv4 listen socket on port 1883.
-1689920399: Opening ipv6 listen socket on port 1883.
-1689920399: Opening ipv4 listen socket on port 8883.
-1689920399: Opening ipv6 listen socket on port 8883.
-1689920399: mosquitto version 2.0.15 running
-1689920401: New connection from 172.23.0.3:34446 on port 8883.
-1689920401: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689920401: Client <unknown> disconnected: Protocol error.
-1689920676: mosquitto version 2.0.15 terminating
-1689920676: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689920691: mosquitto version 2.0.15 starting
-1689920691: Config loaded from /mosquitto/config/mosquitto.conf.
-1689920691: Opening ipv4 listen socket on port 1883.
-1689920691: Opening ipv6 listen socket on port 1883.
-1689920691: Opening ipv4 listen socket on port 8883.
-1689920691: Opening ipv6 listen socket on port 8883.
-1689920691: mosquitto version 2.0.15 running
-1689920722: New connection from 172.23.0.3:49348 on port 1883.
-1689920722: New client connected from 172.23.0.3:49348 as auto-3B32A78C-D7A9-B954-3FD4-2EFA051EAB32 (p2, c1, k60, u'admin').
-1689920742: New connection from 172.23.0.4:59204 on port 8883.
-1689920742: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689920742: Client <unknown> disconnected: Protocol error.
-1689920799: Client auto-3B32A78C-D7A9-B954-3FD4-2EFA051EAB32 closed its connection.
-1689920800: mosquitto version 2.0.15 terminating
-1689920800: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689921104: mosquitto version 2.0.15 starting
-1689921104: Config loaded from /mosquitto/config/mosquitto.conf.
-1689921104: Opening ipv4 listen socket on port 1883.
-1689921104: Opening ipv6 listen socket on port 1883.
-1689921104: Opening ipv4 listen socket on port 8883.
-1689921104: Opening ipv6 listen socket on port 8883.
-1689921104: mosquitto version 2.0.15 running
-1689921164: New connection from 172.23.0.3:59346 on port 8883.
-1689921164: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689921164: Client <unknown> disconnected: Protocol error.
-1689922751: mosquitto version 2.0.15 terminating
-1689922751: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689923361: mosquitto version 2.0.15 starting
-1689923361: Config loaded from /mosquitto/config/mosquitto.conf.
-1689923361: Opening ipv4 listen socket on port 1883.
-1689923361: Opening ipv6 listen socket on port 1883.
-1689923361: Opening ipv4 listen socket on port 8883.
-1689923361: Opening ipv6 listen socket on port 8883.
-1689923361: mosquitto version 2.0.15 running
-1689923430: New connection from 172.23.0.4:57832 on port 8883.
-1689923430: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689923430: Client <unknown> disconnected: Protocol error.
-1689923476: New connection from 172.23.0.4:60316 on port 8883.
-1689923476: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689923476: Client <unknown> disconnected: Protocol error.
-1689923479: New connection from 172.23.0.4:34118 on port 1883.
-1689923479: New client connected from 172.23.0.4:34118 as auto-FBCDD320-2211-C9C3-AF77-9BF64986E757 (p2, c1, k60, u'admin').
-1689923491: Client auto-FBCDD320-2211-C9C3-AF77-9BF64986E757 disconnected.
-1689923510: New connection from 172.23.0.4:57518 on port 8883.
-1689923510: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689923510: Client <unknown> disconnected: Protocol error.
-1689923543: New connection from 172.23.0.4:58008 on port 1883.
-1689923543: New client connected from 172.23.0.4:58008 as auto-851948C9-2B2B-C89E-6F1A-0EA4002A2498 (p2, c1, k60, u'admin').
-1689923577: New connection from 172.23.0.5:51178 on port 1883.
-1689923577: New client connected from 172.23.0.5:51178 as auto-4E0482F7-1ED6-9364-A353-312710ECC18A (p2, c1, k60, u'user').
-1689923577: Client auto-4E0482F7-1ED6-9364-A353-312710ECC18A disconnected.
-1689923582: Client auto-851948C9-2B2B-C89E-6F1A-0EA4002A2498 disconnected.
-1689923586: New connection from 172.23.0.4:57062 on port 1883.
-1689923586: New client connected from 172.23.0.4:57062 as auto-38F2DB04-FAC1-F0CD-64EE-503EEFD9E6A5 (p2, c1, k60, u'admin').
-1689923591: New connection from 172.23.0.5:51960 on port 1883.
-1689923591: New client connected from 172.23.0.5:51960 as auto-DB1AA873-306D-5F13-6DAE-22F798A6AFD1 (p2, c1, k60, u'user').
-1689923591: Client auto-DB1AA873-306D-5F13-6DAE-22F798A6AFD1 disconnected.
-1689923613: Client auto-38F2DB04-FAC1-F0CD-64EE-503EEFD9E6A5 disconnected.
-1689923687: New connection from 172.23.0.4:43614 on port 1883.
-1689923687: New client connected from 172.23.0.4:43614 as auto-B7B9288C-BD9F-DCD2-A3F8-562132DC8EF5 (p2, c1, k60, u'admin').
-1689923693: New connection from 172.23.0.5:44152 on port 1883.
-1689923693: New client connected from 172.23.0.5:44152 as auto-8C693929-0C51-D42F-64F5-8EE4CD038779 (p2, c1, k60, u'user').
-1689923693: Client auto-8C693929-0C51-D42F-64F5-8EE4CD038779 disconnected.
-1689923697: Client auto-B7B9288C-BD9F-DCD2-A3F8-562132DC8EF5 disconnected.
-1689923719: New connection from 172.23.0.4:35096 on port 1883.
-1689923719: New client connected from 172.23.0.4:35096 as auto-8AF5CAB2-FC7D-799C-443D-4722D2254E96 (p2, c1, k60, u'admin').
-1689923722: New connection from 172.23.0.5:33108 on port 1883.
-1689923722: New client connected from 172.23.0.5:33108 as auto-69A26D45-E775-4932-45C5-3BB9978F41C6 (p2, c1, k60, u'user').
-1689923722: Client auto-69A26D45-E775-4932-45C5-3BB9978F41C6 disconnected.
-1689923727: Client auto-8AF5CAB2-FC7D-799C-443D-4722D2254E96 disconnected.
-1689923837: New connection from 172.23.0.4:54510 on port 8883.
-1689923837: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689923837: Client <unknown> disconnected: Protocol error.
-1689923908: mosquitto version 2.0.15 terminating
-1689923908: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689924694: mosquitto version 2.0.15 starting
-1689924694: Config loaded from /mosquitto/config/mosquitto.conf.
-1689924694: Opening ipv4 listen socket on port 1883.
-1689924694: Opening ipv6 listen socket on port 1883.
-1689924694: Opening ipv4 listen socket on port 8883.
-1689924694: Opening ipv6 listen socket on port 8883.
-1689924694: mosquitto version 2.0.15 running
-1689924695: New connection from 172.23.0.3:41892 on port 8883.
-1689924695: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689924695: Client <unknown> disconnected: Protocol error.
-1689924711: mosquitto version 2.0.15 terminating
-1689924711: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689924916: mosquitto version 2.0.15 starting
-1689924916: Config loaded from /mosquitto/config/mosquitto.conf.
-1689924916: Opening ipv4 listen socket on port 1883.
-1689924916: Opening ipv6 listen socket on port 1883.
-1689924916: Opening ipv4 listen socket on port 8883.
-1689924916: Opening ipv6 listen socket on port 8883.
-1689924916: Error: Unable to load CA certificates. Check cafile "/mosquitto/certs/ca.crt".
-1689924916: Error: Unable to load server certificate "/mosquitto/certs/server.crt". Check certfile.
-1689924916: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
-1689924916: OpenSSL Error[1]: error:20FFF080:BIO routines:CRYPTO_internal:no such file
-1689924916: OpenSSL Error[2]: error:0BFFF002:x509 certificate routines:CRYPTO_internal:system lib
-1689924916: OpenSSL Error[3]: error:02FFF002:system library:func(4095):No such file or directory
-1689924916: OpenSSL Error[4]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
-1689924916: OpenSSL Error[5]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
-1689925161: mosquitto version 2.0.15 starting
-1689925161: Config loaded from /mosquitto/config/mosquitto.conf.
-1689925161: Opening ipv4 listen socket on port 1883.
-1689925161: Opening ipv6 listen socket on port 1883.
-1689925161: Opening ipv4 listen socket on port 8883.
-1689925161: Opening ipv6 listen socket on port 8883.
-1689925161: mosquitto version 2.0.15 running
-1689925334: mosquitto version 2.0.15 terminating
-1689925334: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689925378: mosquitto version 2.0.15 starting
-1689925378: Config loaded from /mosquitto/config/mosquitto.conf.
-1689925378: Opening ipv4 listen socket on port 1883.
-1689925378: Opening ipv6 listen socket on port 1883.
-1689925378: Opening ipv4 listen socket on port 8883.
-1689925378: Opening ipv6 listen socket on port 8883.
-1689925378: mosquitto version 2.0.15 running
-1689925406: New connection from 172.23.0.3:55688 on port 8883.
-1689925406: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689925406: Client <unknown> disconnected: Protocol error.
-1689925557: New connection from 172.23.0.3:45956 on port 8883.
-1689925557: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689925557: Client <unknown> disconnected: Protocol error.
-1689925735: mosquitto version 2.0.15 terminating
-1689925735: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689925757: mosquitto version 2.0.15 starting
-1689925757: Config loaded from /mosquitto/config/mosquitto.conf.
-1689925757: Opening ipv4 listen socket on port 1883.
-1689925757: Opening ipv6 listen socket on port 1883.
-1689925757: Opening ipv4 listen socket on port 8883.
-1689925757: Opening ipv6 listen socket on port 8883.
-1689925757: mosquitto version 2.0.15 running
-1689925777: New connection from 172.23.0.3:55524 on port 8883.
-1689925777: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689925777: Client <unknown> disconnected: Protocol error.
-1689925976: mosquitto version 2.0.15 terminating
-1689925976: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689926002: mosquitto version 2.0.15 starting
-1689926002: Config loaded from /mosquitto/config/mosquitto.conf.
-1689926002: Opening ipv4 listen socket on port 1883.
-1689926002: Opening ipv6 listen socket on port 1883.
-1689926002: Opening ipv4 listen socket on port 8883.
-1689926002: Opening ipv6 listen socket on port 8883.
-1689926002: mosquitto version 2.0.15 running
-1689926003: New connection from 172.23.0.3:46128 on port 8883.
-1689926003: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689926003: Client <unknown> disconnected: Protocol error.
-1689926038: mosquitto version 2.0.15 terminating
-1689926038: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689926108: mosquitto version 2.0.15 starting
-1689926108: Config loaded from /mosquitto/config/mosquitto.conf.
-1689926108: Opening ipv4 listen socket on port 1883.
-1689926108: Opening ipv6 listen socket on port 1883.
-1689926108: Opening ipv4 listen socket on port 8883.
-1689926108: Opening ipv6 listen socket on port 8883.
-1689926108: mosquitto version 2.0.15 running
-1689926109: New connection from 172.23.0.3:43474 on port 8883.
-1689926109: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689926109: Client <unknown> disconnected: Protocol error.
-1689926309: mosquitto version 2.0.15 terminating
-1689926309: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689926891: mosquitto version 2.0.15 starting
-1689926891: Config loaded from /mosquitto/config/mosquitto.conf.
-1689926891: Opening ipv4 listen socket on port 1883.
-1689926891: Opening ipv6 listen socket on port 1883.
-1689926891: Opening ipv4 listen socket on port 8883.
-1689926891: Opening ipv6 listen socket on port 8883.
-1689926891: mosquitto version 2.0.15 running
-1689927047: New connection from 172.23.0.3:59682 on port 1883.
-1689927047: New client connected from 172.23.0.3:59682 as auto-15339557-8BD5-8DC6-43A8-19AA1F946430 (p2, c1, k60, u'admin').
-1689927047: No will message specified.
-1689927047: Sending CONNACK to auto-15339557-8BD5-8DC6-43A8-19AA1F946430 (0, 0)
-1689927047: Received SUBSCRIBE from auto-15339557-8BD5-8DC6-43A8-19AA1F946430
-1689927047: 	topics/iot (QoS 0)
-1689927047: auto-15339557-8BD5-8DC6-43A8-19AA1F946430 0 topics/iot
-1689927047: Sending SUBACK to auto-15339557-8BD5-8DC6-43A8-19AA1F946430
-1689927107: Received PINGREQ from auto-15339557-8BD5-8DC6-43A8-19AA1F946430
-1689927107: Sending PINGRESP to auto-15339557-8BD5-8DC6-43A8-19AA1F946430
-1689927151: Client auto-15339557-8BD5-8DC6-43A8-19AA1F946430 closed its connection.
-1689927152: mosquitto version 2.0.15 terminating
-1689927152: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689927170: mosquitto version 2.0.15 starting
-1689927170: Config loaded from /mosquitto/config/mosquitto.conf.
-1689927170: Opening ipv4 listen socket on port 1883.
-1689927170: Opening ipv6 listen socket on port 1883.
-1689927170: Opening ipv4 listen socket on port 8883.
-1689927170: Opening ipv6 listen socket on port 8883.
-1689927170: mosquitto version 2.0.15 running
-1689927172: New connection from 172.23.0.3:42428 on port 1883.
-1689927172: New client connected from 172.23.0.3:42428 as auto-9F819F37-8C2C-4F26-EAB8-CD49FD9AB46B (p2, c1, k60, u'admin').
-1689927172: No will message specified.
-1689927172: Sending CONNACK to auto-9F819F37-8C2C-4F26-EAB8-CD49FD9AB46B (0, 0)
-1689927172: Received SUBSCRIBE from auto-9F819F37-8C2C-4F26-EAB8-CD49FD9AB46B
-1689927172: 	topics/iot (QoS 0)
-1689927172: auto-9F819F37-8C2C-4F26-EAB8-CD49FD9AB46B 0 topics/iot
-1689927172: Sending SUBACK to auto-9F819F37-8C2C-4F26-EAB8-CD49FD9AB46B
-1689927180: New connection from 172.23.0.4:49898 on port 1883.
-1689927180: New client connected from 172.23.0.4:49898 as auto-C1BD6BB7-9E43-3E67-27D8-CF9882D689D9 (p2, c1, k60, u'admin').
-1689927180: No will message specified.
-1689927180: Sending CONNACK to auto-C1BD6BB7-9E43-3E67-27D8-CF9882D689D9 (0, 0)
-1689927180: Received PUBLISH from auto-C1BD6BB7-9E43-3E67-27D8-CF9882D689D9 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
-1689927180: Sending PUBLISH to auto-9F819F37-8C2C-4F26-EAB8-CD49FD9AB46B (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
-1689927180: Received DISCONNECT from auto-C1BD6BB7-9E43-3E67-27D8-CF9882D689D9
-1689927180: Client auto-C1BD6BB7-9E43-3E67-27D8-CF9882D689D9 disconnected.
-1689927191: New connection from 172.23.0.4:47080 on port 1883.
-1689927191: New client connected from 172.23.0.4:47080 as auto-0600F75F-DA58-606B-4F49-FF5B9856E15B (p2, c1, k60, u'admin').
-1689927191: No will message specified.
-1689927191: Sending CONNACK to auto-0600F75F-DA58-606B-4F49-FF5B9856E15B (0, 0)
-1689927191: Received PUBLISH from auto-0600F75F-DA58-606B-4F49-FF5B9856E15B (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
-1689927191: Sending PUBLISH to auto-9F819F37-8C2C-4F26-EAB8-CD49FD9AB46B (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
-1689927191: Received DISCONNECT from auto-0600F75F-DA58-606B-4F49-FF5B9856E15B
-1689927191: Client auto-0600F75F-DA58-606B-4F49-FF5B9856E15B disconnected.
-1689927234: Received PINGREQ from auto-9F819F37-8C2C-4F26-EAB8-CD49FD9AB46B
-1689927234: Sending PINGRESP to auto-9F819F37-8C2C-4F26-EAB8-CD49FD9AB46B
-1689928968: Received DISCONNECT from auto-9F819F37-8C2C-4F26-EAB8-CD49FD9AB46B
-1689928968: Client auto-9F819F37-8C2C-4F26-EAB8-CD49FD9AB46B disconnected.
-1689928969: mosquitto version 2.0.15 terminating
-1689928969: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689931393: mosquitto version 2.0.15 starting
-1689931393: Config loaded from /mosquitto/config/mosquitto.conf.
-1689931393: Opening ipv4 listen socket on port 1883.
-1689931393: Opening ipv6 listen socket on port 1883.
-1689931393: Opening ipv4 listen socket on port 8883.
-1689931393: Opening ipv6 listen socket on port 8883.
-1689931393: Error: Unable to load CA certificates. Check cafile "/mosquitto/certs/ca.crt".
-1689931393: Error: Unable to load server certificate "/mosquitto/certs/server.crt". Check certfile.
-1689931393: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
-1689931393: OpenSSL Error[1]: error:20FFF080:BIO routines:CRYPTO_internal:no such file
-1689931393: OpenSSL Error[2]: error:0BFFF002:x509 certificate routines:CRYPTO_internal:system lib
-1689931393: OpenSSL Error[3]: error:02FFF002:system library:func(4095):No such file or directory
-1689931393: OpenSSL Error[4]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
-1689931393: OpenSSL Error[5]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
-1689931779: mosquitto version 2.0.15 starting
-1689931779: Config loaded from /mosquitto/config/mosquitto.conf.
-1689931779: Opening ipv4 listen socket on port 1883.
-1689931779: Opening ipv6 listen socket on port 1883.
-1689931779: Opening ipv4 listen socket on port 8883.
-1689931779: Opening ipv6 listen socket on port 8883.
-1689931779: Error: Unable to load CA certificates. Check cafile "/mosquitto/certs/ca.crt".
-1689931779: Error: Unable to load server certificate "/mosquitto/certs/server.crt". Check certfile.
-1689931779: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
-1689931779: OpenSSL Error[1]: error:20FFF080:BIO routines:CRYPTO_internal:no such file
-1689931779: OpenSSL Error[2]: error:0BFFF002:x509 certificate routines:CRYPTO_internal:system lib
-1689931779: OpenSSL Error[3]: error:02FFF002:system library:func(4095):No such file or directory
-1689931779: OpenSSL Error[4]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
-1689931779: OpenSSL Error[5]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
-1689931851: mosquitto version 2.0.15 starting
-1689931851: Config loaded from /mosquitto/config/mosquitto.conf.
-1689931851: Opening ipv4 listen socket on port 1883.
-1689931851: Opening ipv6 listen socket on port 1883.
-1689931851: Opening ipv4 listen socket on port 8883.
-1689931851: Opening ipv6 listen socket on port 8883.
-1689931851: mosquitto version 2.0.15 running
-1689931882: mosquitto version 2.0.15 terminating
-1689931882: Saving in-memory database to /mosquitto/data//mosquitto.db.
-1689931927: mosquitto version 2.0.15 starting
-1689931927: Config loaded from /mosquitto/config/mosquitto.conf.
-1689931927: Opening ipv4 listen socket on port 1883.
-1689931927: Opening ipv6 listen socket on port 1883.
-1689931927: Opening ipv4 listen socket on port 8883.
-1689931927: Opening ipv6 listen socket on port 8883.
-1689931927: mosquitto version 2.0.15 running
-1689931929: New connection from 172.23.0.3:58658 on port 8883.
-1689931929: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
-1689931929: Client <unknown> disconnected: Protocol error.
-1689931949: mosquitto version 2.0.15 terminating
-1689931949: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690185544: mosquitto version 2.0.15 starting
+1690185544: Config loaded from /mosquitto/config/mosquitto.conf.
+1690185544: Opening ipv4 listen socket on port 1883.
+1690185544: Opening ipv6 listen socket on port 1883.
+1690185544: Opening ipv4 listen socket on port 8883.
+1690185544: Opening ipv6 listen socket on port 8883.
+1690185544: mosquitto version 2.0.15 running
+1690185752: mosquitto version 2.0.15 terminating
+1690185752: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690185810: mosquitto version 2.0.15 starting
+1690185810: Config loaded from /mosquitto/config/mosquitto.conf.
+1690185810: Opening ipv4 listen socket on port 1883.
+1690185810: Opening ipv6 listen socket on port 1883.
+1690185810: Opening ipv4 listen socket on port 8883.
+1690185810: Opening ipv6 listen socket on port 8883.
+1690185810: mosquitto version 2.0.15 running
+1690185837: mosquitto version 2.0.15 terminating
+1690185837: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690185859: mosquitto version 2.0.15 starting
+1690185859: Config loaded from /mosquitto/config/mosquitto.conf.
+1690185859: Opening ipv4 listen socket on port 1883.
+1690185859: Opening ipv6 listen socket on port 1883.
+1690185859: Opening ipv4 listen socket on port 8883.
+1690185859: Opening ipv6 listen socket on port 8883.
+1690185859: mosquitto version 2.0.15 running
+1690185910: mosquitto version 2.0.15 terminating
+1690185910: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690185949: mosquitto version 2.0.15 starting
+1690185949: Config loaded from /mosquitto/config/mosquitto.conf.
+1690185949: Opening ipv4 listen socket on port 1883.
+1690185949: Opening ipv6 listen socket on port 1883.
+1690185949: Opening ipv4 listen socket on port 8883.
+1690185949: Opening ipv6 listen socket on port 8883.
+1690185949: mosquitto version 2.0.15 running
+1690186324: mosquitto version 2.0.15 terminating
+1690186324: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690186372: mosquitto version 2.0.15 starting
+1690186372: Config loaded from /mosquitto/config/mosquitto.conf.
+1690186372: Opening ipv4 listen socket on port 1883.
+1690186372: Opening ipv6 listen socket on port 1883.
+1690186372: Opening ipv4 listen socket on port 8883.
+1690186372: Opening ipv6 listen socket on port 8883.
+1690186372: mosquitto version 2.0.15 running
+1690186439: mosquitto version 2.0.15 terminating
+1690186439: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690189909: mosquitto version 2.0.15 starting
+1690189909: Config loaded from /mosquitto/config/mosquitto.conf.
+1690189909: Opening ipv4 listen socket on port 1883.
+1690189909: Opening ipv6 listen socket on port 1883.
+1690189909: Opening ipv4 listen socket on port 8883.
+1690189909: Opening ipv6 listen socket on port 8883.
+1690189909: mosquitto version 2.0.15 running
+1690189951: mosquitto version 2.0.15 terminating
+1690189951: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690189975: mosquitto version 2.0.15 starting
+1690189975: Config loaded from /mosquitto/config/mosquitto.conf.
+1690189975: Opening ipv4 listen socket on port 1883.
+1690189975: Opening ipv6 listen socket on port 1883.
+1690189975: Opening ipv4 listen socket on port 8883.
+1690189975: Opening ipv6 listen socket on port 8883.
+1690189975: mosquitto version 2.0.15 running
+1690189977: New connection from 172.19.0.3:50744 on port 1883.
+1690189977: New client connected from 172.19.0.3:50744 as auto-7EEEEA5A-4EAA-C0D1-E3F1-F268C0A9D591 (p2, c1, k60, u'admin').
+1690189977: No will message specified.
+1690189977: Sending CONNACK to auto-7EEEEA5A-4EAA-C0D1-E3F1-F268C0A9D591 (0, 0)
+1690189977: Received SUBSCRIBE from auto-7EEEEA5A-4EAA-C0D1-E3F1-F268C0A9D591
+1690189977: 	topics/iot (QoS 0)
+1690189977: auto-7EEEEA5A-4EAA-C0D1-E3F1-F268C0A9D591 0 topics/iot
+1690189977: Sending SUBACK to auto-7EEEEA5A-4EAA-C0D1-E3F1-F268C0A9D591
+1690190009: Received DISCONNECT from auto-7EEEEA5A-4EAA-C0D1-E3F1-F268C0A9D591
+1690190009: Client auto-7EEEEA5A-4EAA-C0D1-E3F1-F268C0A9D591 disconnected.
+1690190010: mosquitto version 2.0.15 terminating
+1690190010: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690190028: mosquitto version 2.0.15 starting
+1690190028: Config loaded from /mosquitto/config/mosquitto.conf.
+1690190028: Opening ipv4 listen socket on port 1883.
+1690190028: Opening ipv6 listen socket on port 1883.
+1690190028: Opening ipv4 listen socket on port 8883.
+1690190028: Opening ipv6 listen socket on port 8883.
+1690190028: mosquitto version 2.0.15 running
+1690190029: New connection from 172.19.0.3:39754 on port 1883.
+1690190029: New client connected from 172.19.0.3:39754 as auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2 (p2, c1, k60, u'admin').
+1690190029: No will message specified.
+1690190029: Sending CONNACK to auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2 (0, 0)
+1690190029: Received SUBSCRIBE from auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2
+1690190029: 	topics/iot (QoS 0)
+1690190029: auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2 0 topics/iot
+1690190029: Sending SUBACK to auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2
+1690190089: Received PINGREQ from auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2
+1690190089: Sending PINGRESP to auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2
+1690190148: Received PINGREQ from auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2
+1690190148: Sending PINGRESP to auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2
+1690190209: Received PINGREQ from auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2
+1690190209: Sending PINGRESP to auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2
+1690190258: New connection from 172.19.0.4:50852 on port 1883.
+1690190258: New client connected from 172.19.0.4:50852 as auto-BEE3D0F8-D5E4-EEE7-3961-D32B39CB0777 (p2, c1, k60, u'admin').
+1690190258: No will message specified.
+1690190258: Sending CONNACK to auto-BEE3D0F8-D5E4-EEE7-3961-D32B39CB0777 (0, 0)
+1690190258: Received PUBLISH from auto-BEE3D0F8-D5E4-EEE7-3961-D32B39CB0777 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690190258: Sending PUBLISH to auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690190258: Received DISCONNECT from auto-BEE3D0F8-D5E4-EEE7-3961-D32B39CB0777
+1690190258: Client auto-BEE3D0F8-D5E4-EEE7-3961-D32B39CB0777 disconnected.
+1690190263: New connection from 172.19.0.4:50856 on port 1883.
+1690190263: New client connected from 172.19.0.4:50856 as auto-D0BED5C9-8359-7B4B-B085-D5F124FE0DEA (p2, c1, k60, u'admin').
+1690190263: No will message specified.
+1690190263: Sending CONNACK to auto-D0BED5C9-8359-7B4B-B085-D5F124FE0DEA (0, 0)
+1690190263: Received PUBLISH from auto-D0BED5C9-8359-7B4B-B085-D5F124FE0DEA (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690190263: Sending PUBLISH to auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690190263: Received DISCONNECT from auto-D0BED5C9-8359-7B4B-B085-D5F124FE0DEA
+1690190263: Client auto-D0BED5C9-8359-7B4B-B085-D5F124FE0DEA disconnected.
+1690190269: Received PINGREQ from auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2
+1690190269: Sending PINGRESP to auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2
+1690190314: Received DISCONNECT from auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2
+1690190314: Client auto-153C03DC-AA1B-53ED-34B4-4B3D65996BA2 disconnected.
+1690190314: mosquitto version 2.0.15 terminating
+1690190314: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690190628: mosquitto version 2.0.15 starting
+1690190628: Config loaded from /mosquitto/config/mosquitto.conf.
+1690190628: Opening ipv4 listen socket on port 1883.
+1690190628: Opening ipv6 listen socket on port 1883.
+1690190628: Opening ipv4 listen socket on port 8883.
+1690190628: Opening ipv6 listen socket on port 8883.
+1690190628: mosquitto version 2.0.15 running
+1690190629: New connection from 172.19.0.3:42128 on port 1883.
+1690190629: New client connected from 172.19.0.3:42128 as auto-73AAEF3C-4038-81DA-1C34-057EBDFC932F (p2, c1, k60, u'admin').
+1690190629: No will message specified.
+1690190629: Sending CONNACK to auto-73AAEF3C-4038-81DA-1C34-057EBDFC932F (0, 0)
+1690190629: Received SUBSCRIBE from auto-73AAEF3C-4038-81DA-1C34-057EBDFC932F
+1690190629: 	topics/iot (QoS 0)
+1690190629: auto-73AAEF3C-4038-81DA-1C34-057EBDFC932F 0 topics/iot
+1690190629: Sending SUBACK to auto-73AAEF3C-4038-81DA-1C34-057EBDFC932F
+1690190669: New connection from 172.19.0.4:48200 on port 1883.
+1690190669: New client connected from 172.19.0.4:48200 as auto-EE75247D-0875-F86D-EDA6-027B8D43DC38 (p2, c1, k60, u'admin').
+1690190669: No will message specified.
+1690190669: Sending CONNACK to auto-EE75247D-0875-F86D-EDA6-027B8D43DC38 (0, 0)
+1690190669: Received PUBLISH from auto-EE75247D-0875-F86D-EDA6-027B8D43DC38 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690190669: Sending PUBLISH to auto-73AAEF3C-4038-81DA-1C34-057EBDFC932F (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690190669: Received DISCONNECT from auto-EE75247D-0875-F86D-EDA6-027B8D43DC38
+1690190669: Client auto-EE75247D-0875-F86D-EDA6-027B8D43DC38 disconnected.
+1690190671: New connection from 172.19.0.4:48210 on port 1883.
+1690190671: New client connected from 172.19.0.4:48210 as auto-7605DEE3-F109-7F26-5266-8FF23C6E3BC3 (p2, c1, k60, u'admin').
+1690190671: No will message specified.
+1690190671: Sending CONNACK to auto-7605DEE3-F109-7F26-5266-8FF23C6E3BC3 (0, 0)
+1690190671: Received PUBLISH from auto-7605DEE3-F109-7F26-5266-8FF23C6E3BC3 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690190671: Sending PUBLISH to auto-73AAEF3C-4038-81DA-1C34-057EBDFC932F (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690190671: Received DISCONNECT from auto-7605DEE3-F109-7F26-5266-8FF23C6E3BC3
+1690190671: Client auto-7605DEE3-F109-7F26-5266-8FF23C6E3BC3 disconnected.
+1690190689: Received PINGREQ from auto-73AAEF3C-4038-81DA-1C34-057EBDFC932F
+1690190689: Sending PINGRESP to auto-73AAEF3C-4038-81DA-1C34-057EBDFC932F
+1690190710: Received DISCONNECT from auto-73AAEF3C-4038-81DA-1C34-057EBDFC932F
+1690190710: Client auto-73AAEF3C-4038-81DA-1C34-057EBDFC932F disconnected.
+1690190711: mosquitto version 2.0.15 terminating
+1690190711: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690190839: mosquitto version 2.0.15 starting
+1690190839: Config loaded from /mosquitto/config/mosquitto.conf.
+1690190839: Opening ipv4 listen socket on port 1883.
+1690190839: Opening ipv6 listen socket on port 1883.
+1690190839: Opening ipv4 listen socket on port 8883.
+1690190839: Opening ipv6 listen socket on port 8883.
+1690190839: mosquitto version 2.0.15 running
+1690190841: New connection from 172.19.0.3:39616 on port 1883.
+1690190841: New client connected from 172.19.0.3:39616 as auto-F1220378-A90C-A98F-BD53-DB2F463F0323 (p2, c1, k60, u'admin').
+1690190841: No will message specified.
+1690190841: Sending CONNACK to auto-F1220378-A90C-A98F-BD53-DB2F463F0323 (0, 0)
+1690190841: Received SUBSCRIBE from auto-F1220378-A90C-A98F-BD53-DB2F463F0323
+1690190841: 	topics/iot (QoS 0)
+1690190841: auto-F1220378-A90C-A98F-BD53-DB2F463F0323 0 topics/iot
+1690190841: Sending SUBACK to auto-F1220378-A90C-A98F-BD53-DB2F463F0323
+1690190852: New connection from 172.19.0.4:43602 on port 1883.
+1690190852: New client connected from 172.19.0.4:43602 as auto-83C12DA0-C810-A0F2-7928-66FC5AB7185E (p2, c1, k60, u'admin').
+1690190852: No will message specified.
+1690190852: Sending CONNACK to auto-83C12DA0-C810-A0F2-7928-66FC5AB7185E (0, 0)
+1690190852: Received PUBLISH from auto-83C12DA0-C810-A0F2-7928-66FC5AB7185E (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690190852: Sending PUBLISH to auto-F1220378-A90C-A98F-BD53-DB2F463F0323 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690190852: Received DISCONNECT from auto-83C12DA0-C810-A0F2-7928-66FC5AB7185E
+1690190852: Client auto-83C12DA0-C810-A0F2-7928-66FC5AB7185E disconnected.
+1690190897: New connection from 172.19.0.4:52692 on port 1883.
+1690190897: New client connected from 172.19.0.4:52692 as auto-307C8569-951F-6C64-3D9D-8A6246AB9D76 (p2, c1, k60, u'admin').
+1690190897: No will message specified.
+1690190897: Sending CONNACK to auto-307C8569-951F-6C64-3D9D-8A6246AB9D76 (0, 0)
+1690190897: Received PUBLISH from auto-307C8569-951F-6C64-3D9D-8A6246AB9D76 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690190897: Sending PUBLISH to auto-F1220378-A90C-A98F-BD53-DB2F463F0323 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690190897: Received DISCONNECT from auto-307C8569-951F-6C64-3D9D-8A6246AB9D76
+1690190897: Client auto-307C8569-951F-6C64-3D9D-8A6246AB9D76 disconnected.
+1690190901: Received PINGREQ from auto-F1220378-A90C-A98F-BD53-DB2F463F0323
+1690190901: Sending PINGRESP to auto-F1220378-A90C-A98F-BD53-DB2F463F0323
+1690190961: Received PINGREQ from auto-F1220378-A90C-A98F-BD53-DB2F463F0323
+1690190961: Sending PINGRESP to auto-F1220378-A90C-A98F-BD53-DB2F463F0323
+1690191008: New connection from 172.19.0.4:47102 on port 8883.
+1690191008: OpenSSL Error[0]: error:1403F418:SSL routines:ACCEPT_SR_FINISHED:tlsv1 alert unknown ca
+1690191008: Client <unknown> disconnected: Protocol error.
+1690191021: Received PINGREQ from auto-F1220378-A90C-A98F-BD53-DB2F463F0323
+1690191021: Sending PINGRESP to auto-F1220378-A90C-A98F-BD53-DB2F463F0323
+1690191057: New connection from 172.19.0.4:51474 on port 8883.
+1690191057: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
+1690191057: Client <unknown> disconnected: Protocol error.
+1690191081: Received PINGREQ from auto-F1220378-A90C-A98F-BD53-DB2F463F0323
+1690191081: Sending PINGRESP to auto-F1220378-A90C-A98F-BD53-DB2F463F0323
+1690191099: Received DISCONNECT from auto-F1220378-A90C-A98F-BD53-DB2F463F0323
+1690191099: Client auto-F1220378-A90C-A98F-BD53-DB2F463F0323 disconnected.
+1690191100: mosquitto version 2.0.15 terminating
+1690191100: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690191125: mosquitto version 2.0.15 starting
+1690191125: Config loaded from /mosquitto/config/mosquitto.conf.
+1690191125: Opening ipv4 listen socket on port 1883.
+1690191125: Opening ipv6 listen socket on port 1883.
+1690191125: Opening ipv4 listen socket on port 8883.
+1690191125: Opening ipv6 listen socket on port 8883.
+1690191125: mosquitto version 2.0.15 running
+1690191126: New connection from 172.19.0.3:57898 on port 1883.
+1690191126: New client connected from 172.19.0.3:57898 as auto-D7DCA1B6-40F5-420C-17DE-8EB18C8ED6F9 (p2, c1, k60, u'admin').
+1690191126: No will message specified.
+1690191126: Sending CONNACK to auto-D7DCA1B6-40F5-420C-17DE-8EB18C8ED6F9 (0, 0)
+1690191126: Received SUBSCRIBE from auto-D7DCA1B6-40F5-420C-17DE-8EB18C8ED6F9
+1690191126: 	topics/iot (QoS 0)
+1690191126: auto-D7DCA1B6-40F5-420C-17DE-8EB18C8ED6F9 0 topics/iot
+1690191126: Sending SUBACK to auto-D7DCA1B6-40F5-420C-17DE-8EB18C8ED6F9
+1690191157: Received DISCONNECT from auto-D7DCA1B6-40F5-420C-17DE-8EB18C8ED6F9
+1690191157: Client auto-D7DCA1B6-40F5-420C-17DE-8EB18C8ED6F9 disconnected.
+1690191158: mosquitto version 2.0.15 terminating
+1690191158: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690191192: mosquitto version 2.0.15 starting
+1690191192: Config loaded from /mosquitto/config/mosquitto.conf.
+1690191192: Opening ipv4 listen socket on port 1883.
+1690191192: Opening ipv6 listen socket on port 1883.
+1690191192: Opening ipv4 listen socket on port 8883.
+1690191192: Opening ipv6 listen socket on port 8883.
+1690191192: mosquitto version 2.0.15 running
+1690191227: New connection from 172.19.0.3:46480 on port 1883.
+1690191227: New client connected from 172.19.0.3:46480 as auto-FC8337E9-2FB5-CFCC-18F9-7810B4DBECF3 (p2, c1, k60, u'admin').
+1690191227: No will message specified.
+1690191227: Sending CONNACK to auto-FC8337E9-2FB5-CFCC-18F9-7810B4DBECF3 (0, 0)
+1690191227: Received SUBSCRIBE from auto-FC8337E9-2FB5-CFCC-18F9-7810B4DBECF3
+1690191227: 	topics/iot (QoS 0)
+1690191227: auto-FC8337E9-2FB5-CFCC-18F9-7810B4DBECF3 0 topics/iot
+1690191227: Sending SUBACK to auto-FC8337E9-2FB5-CFCC-18F9-7810B4DBECF3
+1690191240: New connection from 172.19.0.4:52560 on port 8883.
+1690191240: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
+1690191240: Client <unknown> disconnected: Protocol error.
+1690191243: Received DISCONNECT from auto-FC8337E9-2FB5-CFCC-18F9-7810B4DBECF3
+1690191243: Client auto-FC8337E9-2FB5-CFCC-18F9-7810B4DBECF3 disconnected.
+1690191251: New connection from 172.19.0.3:54208 on port 8883.
+1690191251: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
+1690191251: Client <unknown> disconnected: Protocol error.
+1690191298: New connection from 172.19.0.3:42460 on port 1883.
+1690191298: New client connected from 172.19.0.3:42460 as auto-666D4921-B1FC-EE55-532F-3A70AD890076 (p2, c1, k60, u'admin').
+1690191298: No will message specified.
+1690191298: Sending CONNACK to auto-666D4921-B1FC-EE55-532F-3A70AD890076 (0, 0)
+1690191298: Received SUBSCRIBE from auto-666D4921-B1FC-EE55-532F-3A70AD890076
+1690191298: 	topics/iot (QoS 0)
+1690191298: auto-666D4921-B1FC-EE55-532F-3A70AD890076 0 topics/iot
+1690191298: Sending SUBACK to auto-666D4921-B1FC-EE55-532F-3A70AD890076
+1690191300: Received DISCONNECT from auto-666D4921-B1FC-EE55-532F-3A70AD890076
+1690191300: Client auto-666D4921-B1FC-EE55-532F-3A70AD890076 disconnected.
+1690191304: New connection from 172.19.0.3:59736 on port 8883.
+1690191304: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
+1690191304: Client <unknown> disconnected: Protocol error.
+1690191344: mosquitto version 2.0.15 terminating
+1690191344: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690191373: mosquitto version 2.0.15 starting
+1690191373: Config loaded from /mosquitto/config/mosquitto.conf.
+1690191373: Opening ipv4 listen socket on port 1883.
+1690191373: Opening ipv6 listen socket on port 1883.
+1690191373: Opening ipv4 listen socket on port 8883.
+1690191373: Opening ipv6 listen socket on port 8883.
+1690191373: mosquitto version 2.0.15 running
+1690191385: New connection from 172.19.0.3:56444 on port 8883.
+1690191385: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
+1690191385: Client <unknown> disconnected: Protocol error.
+1690191562: mosquitto version 2.0.15 terminating
+1690191562: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690251077: mosquitto version 2.0.15 starting
+1690251077: Config loaded from /mosquitto/config/mosquitto.conf.
+1690251077: Opening ipv4 listen socket on port 1883.
+1690251077: Opening ipv6 listen socket on port 1883.
+1690251077: Opening ipv4 listen socket on port 8883.
+1690251077: Opening ipv6 listen socket on port 8883.
+1690251077: Error: Unable to load CA certificates. Check cafile "/mosquitto/certs/ca.crt".
+1690251077: Error: Unable to load server certificate "/mosquitto/certs/server.crt". Check certfile.
+1690251077: OpenSSL Error[0]: error:02FFF002:system library:func(4095):No such file or directory
+1690251077: OpenSSL Error[1]: error:20FFF080:BIO routines:CRYPTO_internal:no such file
+1690251077: OpenSSL Error[2]: error:0BFFF002:x509 certificate routines:CRYPTO_internal:system lib
+1690251077: OpenSSL Error[3]: error:02FFF002:system library:func(4095):No such file or directory
+1690251077: OpenSSL Error[4]: error:20FFF002:BIO routines:CRYPTO_internal:system lib
+1690251077: OpenSSL Error[5]: error:14FFF002:SSL routines:(UNKNOWN)SSL_internal:system lib
+1690251170: mosquitto version 2.0.15 starting
+1690251170: Config loaded from /mosquitto/config/mosquitto.conf.
+1690251170: Opening ipv4 listen socket on port 1883.
+1690251170: Opening ipv6 listen socket on port 1883.
+1690251170: Opening ipv4 listen socket on port 8883.
+1690251170: Opening ipv6 listen socket on port 8883.
+1690251170: mosquitto version 2.0.15 running
+1690251285: mosquitto version 2.0.15 terminating
+1690251285: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690251321: mosquitto version 2.0.15 starting
+1690251321: Config loaded from /mosquitto/config/mosquitto.conf.
+1690251321: Opening ipv4 listen socket on port 1883.
+1690251321: Opening ipv6 listen socket on port 1883.
+1690251321: Opening ipv4 listen socket on port 8883.
+1690251321: Opening ipv6 listen socket on port 8883.
+1690251321: mosquitto version 2.0.15 running
+1690251353: New connection from 172.19.0.3:44466 on port 8883.
+1690251353: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
+1690251353: Client <unknown> disconnected: Protocol error.
+1690251485: New connection from 172.19.0.3:44912 on port 8883.
+1690251485: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
+1690251485: Client <unknown> disconnected: Protocol error.
+1690251541: mosquitto version 2.0.15 terminating
+1690251541: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690251563: mosquitto version 2.0.15 starting
+1690251563: Config loaded from /mosquitto/config/mosquitto.conf.
+1690251563: Opening ipv4 listen socket on port 8883.
+1690251563: Opening ipv6 listen socket on port 8883.
+1690251563: mosquitto version 2.0.15 running
+1690251584: New connection from 172.19.0.3:47582 on port 8883.
+1690251584: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
+1690251584: Client <unknown> disconnected: Protocol error.
+1690251756: New connection from 172.19.0.3:40094 on port 8883.
+1690251756: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
+1690251756: Client <unknown> disconnected: Protocol error.
+1690252339: New connection from 172.19.0.3:44612 on port 8883.
+1690252339: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
+1690252339: Client <unknown> disconnected: Protocol error.
+1690252350: mosquitto version 2.0.15 terminating
+1690252350: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690252438: mosquitto version 2.0.15 starting
+1690252438: Config loaded from /mosquitto/config/mosquitto.conf.
+1690252438: Opening ipv4 listen socket on port 8883.
+1690252438: Opening ipv6 listen socket on port 8883.
+1690252438: mosquitto version 2.0.15 running
+1690252979: mosquitto version 2.0.15 terminating
+1690252979: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690253363: mosquitto version 2.0.15 starting
+1690253363: Config loaded from /mosquitto/config/mosquitto.conf.
+1690253363: Opening ipv4 listen socket on port 8883.
+1690253363: Opening ipv6 listen socket on port 8883.
+1690253363: mosquitto version 2.0.15 running
+1690253621: New connection from 172.19.0.3:44238 on port 8883.
+1690253621: OpenSSL Error[0]: error:14FFF0C7:SSL routines:(UNKNOWN)SSL_internal:peer did not return a certificate
+1690253621: Client <unknown> disconnected: Protocol error.
+1690253685: New connection from 172.19.0.3:36204 on port 8883.
+1690253685: OpenSSL Error[0]: error:14FFF0C7:SSL routines:(UNKNOWN)SSL_internal:peer did not return a certificate
+1690253685: Client <unknown> disconnected: Protocol error.
+1690253739: New connection from 172.19.0.3:51206 on port 8883.
+1690253739: OpenSSL Error[0]: error:14FFF0C7:SSL routines:(UNKNOWN)SSL_internal:peer did not return a certificate
+1690253739: Client <unknown> disconnected: Protocol error.
+1690253891: New connection from 172.19.0.3:56282 on port 8883.
+1690253891: OpenSSL Error[0]: error:14FFF0C7:SSL routines:(UNKNOWN)SSL_internal:peer did not return a certificate
+1690253891: Client <unknown> disconnected: Protocol error.
+1690254013: mosquitto version 2.0.15 terminating
+1690254013: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690254039: mosquitto version 2.0.15 starting
+1690254039: Config loaded from /mosquitto/config/mosquitto.conf.
+1690254039: Opening ipv4 listen socket on port 8883.
+1690254039: Opening ipv6 listen socket on port 8883.
+1690254039: mosquitto version 2.0.15 running
+1690254067: New connection from 172.19.0.3:46908 on port 8883.
+1690254067: OpenSSL Error[0]: error:14FFF0C7:SSL routines:(UNKNOWN)SSL_internal:peer did not return a certificate
+1690254067: Client <unknown> disconnected: Protocol error.
+1690254139: New connection from 172.19.0.2:43474 on port 8883.
+1690254139: OpenSSL Error[0]: error:14FFF0C7:SSL routines:(UNKNOWN)SSL_internal:peer did not return a certificate
+1690254139: Client <unknown> disconnected: Protocol error.
+1690254358: mosquitto version 2.0.15 terminating
+1690254358: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690254708: mosquitto version 2.0.15 starting
+1690254708: Config loaded from /mosquitto/config/mosquitto.conf.
+1690254708: Opening ipv4 listen socket on port 8883.
+1690254708: Opening ipv6 listen socket on port 8883.
+1690254708: mosquitto version 2.0.15 running
+1690254789: New connection from 172.19.0.3:54110 on port 8883.
+1690254789: OpenSSL Error[0]: error:14FFF0C7:SSL routines:(UNKNOWN)SSL_internal:peer did not return a certificate
+1690254789: Client <unknown> disconnected: Protocol error.
+1690254865: mosquitto version 2.0.15 terminating
+1690254865: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690254879: mosquitto version 2.0.15 starting
+1690254879: Config loaded from /mosquitto/config/mosquitto.conf.
+1690254879: Opening ipv4 listen socket on port 8883.
+1690254879: Opening ipv6 listen socket on port 8883.
+1690254879: mosquitto version 2.0.15 running
+1690254886: New connection from 172.19.0.3:41762 on port 8883.
+1690254886: New client connected from 172.19.0.3:41762 as auto-7499A445-44FC-B877-B5A4-BAE0C41E2562 (p2, c1, k60, u'admin').
+1690254886: No will message specified.
+1690254886: Sending CONNACK to auto-7499A445-44FC-B877-B5A4-BAE0C41E2562 (0, 0)
+1690254886: Received SUBSCRIBE from auto-7499A445-44FC-B877-B5A4-BAE0C41E2562
+1690254886: 	topics/iot (QoS 0)
+1690254886: auto-7499A445-44FC-B877-B5A4-BAE0C41E2562 0 topics/iot
+1690254886: Sending SUBACK to auto-7499A445-44FC-B877-B5A4-BAE0C41E2562
+1690254901: Received DISCONNECT from auto-7499A445-44FC-B877-B5A4-BAE0C41E2562
+1690254901: Client auto-7499A445-44FC-B877-B5A4-BAE0C41E2562 disconnected.
+1690254908: mosquitto version 2.0.15 terminating
+1690254908: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690255012: mosquitto version 2.0.15 starting
+1690255012: Config loaded from /mosquitto/config/mosquitto.conf.
+1690255012: Opening ipv4 listen socket on port 8883.
+1690255012: Opening ipv6 listen socket on port 8883.
+1690255012: mosquitto version 2.0.15 running
+1690255013: New connection from 172.19.0.3:43742 on port 8883.
+1690255013: New client connected from 172.19.0.3:43742 as auto-34F300CD-34B3-521A-BAE1-E3E42E023431 (p2, c1, k60, u'admin').
+1690255013: No will message specified.
+1690255013: Sending CONNACK to auto-34F300CD-34B3-521A-BAE1-E3E42E023431 (0, 0)
+1690255013: Received SUBSCRIBE from auto-34F300CD-34B3-521A-BAE1-E3E42E023431
+1690255013: 	topics/iot (QoS 0)
+1690255013: auto-34F300CD-34B3-521A-BAE1-E3E42E023431 0 topics/iot
+1690255013: Sending SUBACK to auto-34F300CD-34B3-521A-BAE1-E3E42E023431
+1690255073: Received PINGREQ from auto-34F300CD-34B3-521A-BAE1-E3E42E023431
+1690255073: Sending PINGRESP to auto-34F300CD-34B3-521A-BAE1-E3E42E023431
+1690255113: Received DISCONNECT from auto-34F300CD-34B3-521A-BAE1-E3E42E023431
+1690255113: Client auto-34F300CD-34B3-521A-BAE1-E3E42E023431 disconnected.
+1690255115: mosquitto version 2.0.15 terminating
+1690255115: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690255133: mosquitto version 2.0.15 starting
+1690255133: Config loaded from /mosquitto/config/mosquitto.conf.
+1690255133: Opening ipv4 listen socket on port 8883.
+1690255133: Opening ipv6 listen socket on port 8883.
+1690255133: mosquitto version 2.0.15 running
+1690255134: New connection from 172.19.0.3:46966 on port 8883.
+1690255134: New client connected from 172.19.0.3:46966 as auto-A54882D6-1787-176D-84D1-FAEE90FA7704 (p2, c1, k60, u'admin').
+1690255134: No will message specified.
+1690255134: Sending CONNACK to auto-A54882D6-1787-176D-84D1-FAEE90FA7704 (0, 0)
+1690255134: Received SUBSCRIBE from auto-A54882D6-1787-176D-84D1-FAEE90FA7704
+1690255134: 	topics/iot (QoS 0)
+1690255134: auto-A54882D6-1787-176D-84D1-FAEE90FA7704 0 topics/iot
+1690255134: Sending SUBACK to auto-A54882D6-1787-176D-84D1-FAEE90FA7704
+1690255169: New connection from 172.19.0.4:51792 on port 8883.
+1690255169: New client connected from 172.19.0.4:51792 as auto-009D3F10-0FAF-01BE-E207-E311DD573CD0 (p2, c1, k60, u'admin').
+1690255169: No will message specified.
+1690255169: Sending CONNACK to auto-009D3F10-0FAF-01BE-E207-E311DD573CD0 (0, 0)
+1690255169: Received PUBLISH from auto-009D3F10-0FAF-01BE-E207-E311DD573CD0 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690255169: Sending PUBLISH to auto-A54882D6-1787-176D-84D1-FAEE90FA7704 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690255169: Received DISCONNECT from auto-009D3F10-0FAF-01BE-E207-E311DD573CD0
+1690255169: Client auto-009D3F10-0FAF-01BE-E207-E311DD573CD0 disconnected.
+1690255194: Received PINGREQ from auto-A54882D6-1787-176D-84D1-FAEE90FA7704
+1690255194: Sending PINGRESP to auto-A54882D6-1787-176D-84D1-FAEE90FA7704
+1690255202: Received DISCONNECT from auto-A54882D6-1787-176D-84D1-FAEE90FA7704
+1690255202: Client auto-A54882D6-1787-176D-84D1-FAEE90FA7704 disconnected.
+1690255203: mosquitto version 2.0.15 terminating
+1690255203: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690255286: mosquitto version 2.0.15 starting
+1690255286: Config loaded from /mosquitto/config/mosquitto.conf.
+1690255286: Opening ipv4 listen socket on port 8883.
+1690255286: Opening ipv6 listen socket on port 8883.
+1690255286: mosquitto version 2.0.15 running
+1690255287: New connection from 172.19.0.3:58726 on port 8883.
+1690255287: New client connected from 172.19.0.3:58726 as auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E (p2, c1, k60, u'admin').
+1690255287: No will message specified.
+1690255287: Sending CONNACK to auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E (0, 0)
+1690255287: Received SUBSCRIBE from auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E
+1690255287: 	topics/# (QoS 0)
+1690255287: auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E 0 topics/#
+1690255287: Sending SUBACK to auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E
+1690255292: New connection from 172.19.0.4:41652 on port 8883.
+1690255292: New client connected from 172.19.0.4:41652 as auto-6529459C-BAC2-DDC4-3417-01E99CE618A3 (p2, c1, k60, u'admin').
+1690255292: No will message specified.
+1690255292: Sending CONNACK to auto-6529459C-BAC2-DDC4-3417-01E99CE618A3 (0, 0)
+1690255292: Received PUBLISH from auto-6529459C-BAC2-DDC4-3417-01E99CE618A3 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690255292: Sending PUBLISH to auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690255292: Received DISCONNECT from auto-6529459C-BAC2-DDC4-3417-01E99CE618A3
+1690255292: Client auto-6529459C-BAC2-DDC4-3417-01E99CE618A3 disconnected.
+1690255294: New connection from 172.19.0.4:41662 on port 8883.
+1690255294: New client connected from 172.19.0.4:41662 as auto-E0182509-DA26-01B3-8065-7BB7412B2BDC (p2, c1, k60, u'admin').
+1690255294: No will message specified.
+1690255294: Sending CONNACK to auto-E0182509-DA26-01B3-8065-7BB7412B2BDC (0, 0)
+1690255294: Received PUBLISH from auto-E0182509-DA26-01B3-8065-7BB7412B2BDC (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690255294: Sending PUBLISH to auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690255294: Received DISCONNECT from auto-E0182509-DA26-01B3-8065-7BB7412B2BDC
+1690255294: Client auto-E0182509-DA26-01B3-8065-7BB7412B2BDC disconnected.
+1690255347: Received PINGREQ from auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E
+1690255347: Sending PINGRESP to auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E
+1690255407: Received PINGREQ from auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E
+1690255407: Sending PINGRESP to auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E
+1690255452: Received DISCONNECT from auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E
+1690255452: Client auto-B9E44E8D-FCB1-090D-66ED-02AF8F4ED94E disconnected.
+1690255453: mosquitto version 2.0.15 terminating
+1690255453: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690256205: mosquitto version 2.0.15 starting
+1690256205: Config loaded from /mosquitto/config/mosquitto.conf.
+1690256205: Opening ipv4 listen socket on port 8883.
+1690256205: Opening ipv6 listen socket on port 8883.
+1690256205: mosquitto version 2.0.15 running
+1690256206: New connection from 172.19.0.3:42352 on port 8883.
+1690256206: New client connected from 172.19.0.3:42352 as auto-FD8C555C-2D13-2B0E-56EC-0EA454EA35A4 (p2, c1, k60, u'admin').
+1690256206: No will message specified.
+1690256206: Sending CONNACK to auto-FD8C555C-2D13-2B0E-56EC-0EA454EA35A4 (0, 0)
+1690256206: Received SUBSCRIBE from auto-FD8C555C-2D13-2B0E-56EC-0EA454EA35A4
+1690256206: 	topics/# (QoS 0)
+1690256206: auto-FD8C555C-2D13-2B0E-56EC-0EA454EA35A4 0 topics/#
+1690256206: Sending SUBACK to auto-FD8C555C-2D13-2B0E-56EC-0EA454EA35A4
+1690256234: New connection from 172.19.0.4:49682 on port 8883.
+1690256234: New client connected from 172.19.0.4:49682 as auto-A0059FF3-30DC-6D33-742B-ABAB8511470D (p2, c1, k60, u'admin').
+1690256234: No will message specified.
+1690256234: Sending CONNACK to auto-A0059FF3-30DC-6D33-742B-ABAB8511470D (0, 0)
+1690256234: Received PUBLISH from auto-A0059FF3-30DC-6D33-742B-ABAB8511470D (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690256234: Sending PUBLISH to auto-FD8C555C-2D13-2B0E-56EC-0EA454EA35A4 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690256234: Received DISCONNECT from auto-A0059FF3-30DC-6D33-742B-ABAB8511470D
+1690256234: Client auto-A0059FF3-30DC-6D33-742B-ABAB8511470D disconnected.
+1690256266: Received PINGREQ from auto-FD8C555C-2D13-2B0E-56EC-0EA454EA35A4
+1690256266: Sending PINGRESP to auto-FD8C555C-2D13-2B0E-56EC-0EA454EA35A4
+1690256326: Received PINGREQ from auto-FD8C555C-2D13-2B0E-56EC-0EA454EA35A4
+1690256326: Sending PINGRESP to auto-FD8C555C-2D13-2B0E-56EC-0EA454EA35A4
+1690256357: Received DISCONNECT from auto-FD8C555C-2D13-2B0E-56EC-0EA454EA35A4
+1690256357: Client auto-FD8C555C-2D13-2B0E-56EC-0EA454EA35A4 disconnected.
+1690256358: mosquitto version 2.0.15 terminating
+1690256358: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690256558: mosquitto version 2.0.15 starting
+1690256558: Config loaded from /mosquitto/config/mosquitto.conf.
+1690256558: Opening ipv4 listen socket on port 8883.
+1690256558: Opening ipv6 listen socket on port 8883.
+1690256558: mosquitto version 2.0.15 running
+1690256559: New connection from 172.19.0.3:37532 on port 8883.
+1690256559: New client connected from 172.19.0.3:37532 as auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2 (p2, c1, k60, u'admin').
+1690256559: No will message specified.
+1690256559: Sending CONNACK to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2 (0, 0)
+1690256559: Received SUBSCRIBE from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256559: 	topics/# (QoS 0)
+1690256559: auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2 0 topics/#
+1690256559: Sending SUBACK to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256571: New connection from 172.19.0.4:42744 on port 8883.
+1690256572: New client connected from 172.19.0.4:42744 as auto-3AA7910D-44FB-7532-2E4C-A8797C7E912E (p2, c1, k60, u'admin').
+1690256572: No will message specified.
+1690256572: Sending CONNACK to auto-3AA7910D-44FB-7532-2E4C-A8797C7E912E (0, 0)
+1690256572: Received PUBLISH from auto-3AA7910D-44FB-7532-2E4C-A8797C7E912E (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690256572: Sending PUBLISH to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690256572: Received DISCONNECT from auto-3AA7910D-44FB-7532-2E4C-A8797C7E912E
+1690256572: Client auto-3AA7910D-44FB-7532-2E4C-A8797C7E912E disconnected.
+1690256620: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256620: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256680: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256680: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256740: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256740: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256799: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256799: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256859: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256859: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256919: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256919: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256979: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690256979: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257039: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257039: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257099: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257099: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257159: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257159: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257219: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257219: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257279: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257279: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257340: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257340: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257400: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257400: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257460: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257460: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257519: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257519: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257579: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257579: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257639: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257639: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257699: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257699: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257759: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257759: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257819: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257819: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257879: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257879: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257939: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257939: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257999: Received PINGREQ from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690257999: Sending PINGRESP to auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690258033: Received DISCONNECT from auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2
+1690258033: Client auto-1BFB85F6-607B-9DFA-C972-8EA0ECF53AE2 disconnected.
+1690258034: mosquitto version 2.0.15 terminating
+1690258034: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690258408: mosquitto version 2.0.15 starting
+1690258408: Config loaded from /mosquitto/config/mosquitto.conf.
+1690258408: Opening ipv4 listen socket on port 8883.
+1690258408: Opening ipv6 listen socket on port 8883.
+1690258408: mosquitto version 2.0.15 running
+1690258410: New connection from 172.19.0.3:57722 on port 8883.
+1690258410: New client connected from 172.19.0.3:57722 as auto-856D5C8D-E282-6F74-9BE1-8D4ACAD159AB (p2, c1, k60, u'admin').
+1690258410: No will message specified.
+1690258410: Sending CONNACK to auto-856D5C8D-E282-6F74-9BE1-8D4ACAD159AB (0, 0)
+1690258410: Received SUBSCRIBE from auto-856D5C8D-E282-6F74-9BE1-8D4ACAD159AB
+1690258410: 	topics/# (QoS 0)
+1690258410: auto-856D5C8D-E282-6F74-9BE1-8D4ACAD159AB 0 topics/#
+1690258410: Sending SUBACK to auto-856D5C8D-E282-6F74-9BE1-8D4ACAD159AB
+1690258420: mosquitto version 2.0.15 terminating
+1690258420: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1690258424: mosquitto version 2.0.15 starting
+1690258424: Config loaded from /mosquitto/config/mosquitto.conf.
+1690258424: Opening ipv4 listen socket on port 8883.
+1690258424: Opening ipv6 listen socket on port 8883.
+1690258424: mosquitto version 2.0.15 running
+1690258425: New connection from 172.19.0.3:57640 on port 8883.
+1690258425: New client connected from 172.19.0.3:57640 as auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B (p2, c1, k60, u'admin').
+1690258425: No will message specified.
+1690258425: Sending CONNACK to auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B (0, 0)
+1690258425: Received SUBSCRIBE from auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B
+1690258425: 	topics/# (QoS 0)
+1690258425: auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B 0 topics/#
+1690258425: Sending SUBACK to auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B
+1690258461: New connection from 172.19.0.4:44494 on port 8883.
+1690258461: OpenSSL Error[0]: error:02FFF020:system library:func(4095):Broken pipe
+1690258461: Client <unknown> disconnected: Protocol error.
+1690258485: Received PINGREQ from auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B
+1690258485: Sending PINGRESP to auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B
+1690258545: Received PINGREQ from auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B
+1690258545: Sending PINGRESP to auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B
+1690258553: New connection from 172.19.0.4:50990 on port 8883.
+1690258553: New client connected from 172.19.0.4:50990 as auto-98110633-C9A4-E09C-1061-616B7C5EFC59 (p2, c1, k60, u'admin').
+1690258553: No will message specified.
+1690258553: Sending CONNACK to auto-98110633-C9A4-E09C-1061-616B7C5EFC59 (0, 0)
+1690258553: Received PUBLISH from auto-98110633-C9A4-E09C-1061-616B7C5EFC59 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690258553: Sending PUBLISH to auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690258553: Received DISCONNECT from auto-98110633-C9A4-E09C-1061-616B7C5EFC59
+1690258553: Client auto-98110633-C9A4-E09C-1061-616B7C5EFC59 disconnected.
+1690258578: New connection from 172.19.0.4:57714 on port 8883.
+1690258578: New client connected from 172.19.0.4:57714 as auto-A0971FAB-18C1-A558-3FFB-9E2C406E01C7 (p2, c1, k60, u'newUser').
+1690258578: No will message specified.
+1690258578: Sending CONNACK to auto-A0971FAB-18C1-A558-3FFB-9E2C406E01C7 (0, 0)
+1690258578: Received PUBLISH from auto-A0971FAB-18C1-A558-3FFB-9E2C406E01C7 (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690258578: Sending PUBLISH to auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B (d0, q0, r0, m0, 'topics/iot', ... (25 bytes))
+1690258578: Received DISCONNECT from auto-A0971FAB-18C1-A558-3FFB-9E2C406E01C7
+1690258578: Client auto-A0971FAB-18C1-A558-3FFB-9E2C406E01C7 disconnected.
+1690258602: Received DISCONNECT from auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B
+1690258602: Client auto-8216A5E9-3F3F-C685-BC0E-31741ED8F07B disconnected.
+1690258603: mosquitto version 2.0.15 terminating
+1690258603: Saving in-memory database to /mosquitto/data//mosquitto.db.
